@@ -30,6 +30,11 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
 
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
     <script defer src="js/script.js"></script>
   </head>
   <body>
@@ -551,14 +556,9 @@
 
                 <form name="sign-up" netlify class="cta-form">
                   <div>
-                    <label for="name">Full Name</label>
-                    <input
-                      id="name"
-                      type="text"
-                      placeholder="Enter your name"
-                      name="full-name"
-                      required
-                    />
+                    <label for="full-name">Full Name</label>
+                    <input id="full-name type="text" placeholder="Enter your
+                    name" name="full-name" required />
                   </div>
                   <div>
                     <label for="email">Email Address</label>

@@ -257,4 +257,9 @@
     height: 32rem;
     grid-row: 1;
   }
+
+  .pricing--complete::after {
+    top: 9%;
+    right: -10%;
+  }
 }
